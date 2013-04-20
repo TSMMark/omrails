@@ -1,9 +1,14 @@
 /*$baseFontFamily: Oxygen;
 @import url(http://fonts.googleapis.com/css/font-family=Oxygen);*/
 
-$btnPrimaryBackground:green;
-$navbarBackgroundHighlight: #333;
-$navbarBackground: black;
+$btnPrimaryBackground:			green;
+$navbarBackgroundHighlight:	#333;
+$navbarBackground:					black;
+$navbarText:								whitesmoke;
+$navbarLinkColor:						whitesmoke;
+$navbarLinkColorHover:			white;
+$navbarLinkColorActive:			#CCC;
+$navbarBrandColor:					white;
 
 @import 'bootstrap';
 
