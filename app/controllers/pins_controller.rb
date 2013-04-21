@@ -5,7 +5,9 @@ class PinsController < ApplicationController
   # GET /pins
   # GET /pins.json
   def index
-    @pins = Pin.order("created_at DESC")
+    # @pins = Pin.page(params[:page]).per_page(20).order('created_at DESC')
+    # @pins = Pin.order("created_at DESC").page(params[:page]).per_page(20)
+    @pins = Pin.order("created_at desc").page(params[:page]).per_page(20)
 
     respond_to do |format|
       format.html # index.html.erb
