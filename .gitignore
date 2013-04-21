@@ -24,3 +24,6 @@ doc/
 
 #ignore paperclip uploaded files
 /public/system
+
+#ignore heroku S3 key settings
+/sh
