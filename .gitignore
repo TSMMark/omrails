@@ -14,7 +14,7 @@
 /log/*.log
 /tmp
 
-#omrails add
+# omrails add
 doc/
 *.swp
 *~
@@ -22,8 +22,11 @@ doc/
 .DS_Store
 .idea
 
-#ignore paperclip uploaded files
+# ignore paperclip uploaded files
 /public/system
 
-#ignore heroku S3 key settings
+# ignore heroku S3 key settings
 /sh
+
+# ignore faker images
+/sample_images
