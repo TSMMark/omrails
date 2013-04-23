@@ -60,6 +60,9 @@ body {
 		-moz-border-radius:5px;
 		border-radius:5px;
 		box-shadow: 1px 1px 10px #444;
+		p{
+			margin:0;
+		}
 		img {
 			display: block;
 			width:100%;
@@ -69,7 +72,9 @@ body {
 
 		}
 		.description{
-			margin:10px 0 5px;
+		}
+		.box-image{
+			margin-bottom: 4px;
 		}
 	}	
 }
