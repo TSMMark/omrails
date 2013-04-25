@@ -20,6 +20,10 @@ body {
 
 @import 'bootstrap-responsive';
 
+.hero-unit{
+	padding:60px 5%;
+}
+
 .navbar-inner{
 	@include box-shadow(none !important);
 	border:0;
